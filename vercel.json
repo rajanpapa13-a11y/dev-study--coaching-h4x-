@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/.well-known/assetlinks.json",
+      "destination": "https://bytebin.lucko.me/PRXTujUTGC"
+    },
+    {
+      "source": "/assetlinks.json",
+      "destination": "https://bytebin.lucko.me/PRXTujUTGC"
+    },
+    {
+      "source": "/manifest.json",
+      "destination": "https://bytebin.lucko.me/fcVebP1H"
+    },
+    {
+      "source": "/sw.js",
+      "destination": "https://bytebin.lucko.me/cWce2GVF"
+    }
+  ]
+}
