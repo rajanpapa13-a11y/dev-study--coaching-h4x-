@@ -2,19 +2,19 @@
   "rewrites": [
     {
       "source": "/.well-known/assetlinks.json",
-      "destination": "https://bytebin.lucko.me/PRXTujUTGC"
+      "destination": "https://bytebin.lucko.me/BgZ1GqmpsX"
     },
     {
       "source": "/assetlinks.json",
-      "destination": "https://bytebin.lucko.me/PRXTujUTGC"
+      "destination": "https://bytebin.lucko.me/BgZ1GqmpsX"
     },
     {
       "source": "/manifest.json",
-      "destination": "https://bytebin.lucko.me/fcVebP1H"
+      "destination": "https://bytebin.lucko.me/xLnw1PxcT0"
     },
     {
       "source": "/sw.js",
-      "destination": "https://bytebin.lucko.me/cWce2GVF"
+      "destination": "https://bytebin.lucko.me/L7Nn299ZWu"
     }
   ]
 }
