@@ -1,20 +1,44 @@
 {
-  "rewrites": [
+  "headers": [
     {
       "source": "/.well-known/assetlinks.json",
-      "destination": "https://bytebin.lucko.me/BgZ1GqmpsX"
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        }
+      ]
     },
     {
       "source": "/assetlinks.json",
-      "destination": "https://bytebin.lucko.me/BgZ1GqmpsX"
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/.well-known/assetlinks.json",
+      "destination": "https://httpbin.org/base64/W3sicmVsYXRpb24iOlsiZGVsZWdhdGVfcGVybWlzc2lvbi9jb21tb24uaGFuZGxlX2FsbF91cmxzIl0sInRhcmdldCI6eyJuYW1lc3BhY2UiOiJhbmRyb2lkX2FwcCIsInBhY2thZ2VfbmFtZSI6ImNvbS5kZXZzdHVkeS5hcHAiLCJzaGEyNTZfY2VydF9maW5nZXJwcmludHMiOlsiRUU6OEY6RjU6RDQ6NzM6QTU6OEM6NUM6RjE6Qzg6MDY6ODM6RDk6NjQ6Njg6Q0I6MTU6RDY6N0I6NTc6NzI6RDM6OEM6M0Y6Nzk6NzA6OTQ6MjU6NTk6M0Y6MkY6OTciXX19LHsicmVsYXRpb24iOlsiZGVsZWdhdGVfcGVybWlzc2lvbi9jb21tb24uaGFuZGxlX2FsbF91cmxzIl0sInRhcmdldCI6eyJuYW1lc3BhY2UiOiJhbmRyb2lkX2FwcCIsInBhY2thZ2VfbmFtZSI6ImFwcC52ZXJjZWwuZGV2X3N0dWR5X2NvYWNoaW5nX2g0eC50d2EiLCJzaGEyNTZfY2VydF9maW5nZXJwcmludHMiOlsiRUU6OEY6RjU6RDQ6NzM6QTU6OEM6NUM6RjE6Qzg6MDY6ODM6RDk6NjQ6Njg6Q0I6MTU6RDY6N0I6NTc6NzI6RDM6OEM6M0Y6Nzk6NzA6OTQ6MjU6NTk6M0Y6MkY6OTciXX19LHsicmVsYXRpb24iOlsiZGVsZWdhdGVfcGVybWlzc2lvbi9jb21tb24uaGFuZGxlX2FsbF91cmxzIl0sInRhcmdldCI6eyJuYW1lc3BhY2UiOiJhbmRyb2lkX2FwcCIsInBhY2thZ2VfbmFtZSI6ImFwcC52ZXJjZWwuZGV2X3N0dWR5X2NvYWNoaW5nX2xpdmUudHdhIiwic2hhMjU2X2NlcnRfZmluZ2VycHJpbnRzIjpbIkVFOjhGOkY1OkQ0OjczOkE1OjhDOjVDOkYxOkM4OjA2OjgzOkQ5OjY0OjY4OkNCOjE1OkQ2OjdCOjU3OjcyOkQzOjhDOjNGOjc5OjcwOjk0OjI1OjU5OjNGOjJGOjk3Il19fV0="
+    },
+    {
+      "source": "/assetlinks.json",
+      "destination": "https://httpbin.org/base64/W3sicmVsYXRpb24iOlsiZGVsZWdhdGVfcGVybWlzc2lvbi9jb21tb24uaGFuZGxlX2FsbF91cmxzIl0sInRhcmdldCI6eyJuYW1lc3BhY2UiOiJhbmRyb2lkX2FwcCIsInBhY2thZ2VfbmFtZSI6ImNvbS5kZXZzdHVkeS5hcHAiLCJzaGEyNTZfY2VydF9maW5nZXJwcmludHMiOlsiRUU6OEY6RjU6RDQ6NzM6QTU6OEM6NUM6RjE6Qzg6MDY6ODM6RDk6NjQ6Njg6Q0I6MTU6RDY6N0I6NTc6NzI6RDM6OEM6M0Y6Nzk6NzA6OTQ6MjU6NTk6M0Y6MkY6OTciXX19LHsicmVsYXRpb24iOlsiZGVsZWdhdGVfcGVybWlzc2lvbi9jb21tb24uaGFuZGxlX2FsbF91cmxzIl0sInRhcmdldCI6eyJuYW1lc3BhY2UiOiJhbmRyb2lkX2FwcCIsInBhY2thZ2VfbmFtZSI6ImFwcC52ZXJjZWwuZGV2X3N0dWR5X2NvYWNoaW5nX2g0eC50d2EiLCJzaGEyNTZfY2VydF9maW5nZXJwcmludHMiOlsiRUU6OEY6RjU6RDQ6NzM6QTU6OEM6NUM6RjE6Qzg6MDY6ODM6RDk6NjQ6Njg6Q0I6MTU6RDY6N0I6NTc6NzI6RDM6OEM6M0Y6Nzk6NzA6OTQ6MjU6NTk6M0Y6MkY6OTciXX19LHsicmVsYXRpb24iOlsiZGVsZWdhdGVfcGVybWlzc2lvbi9jb21tb24uaGFuZGxlX2FsbF91cmxzIl0sInRhcmdldCI6eyJuYW1lc3BhY2UiOiJhbmRyb2lkX2FwcCIsInBhY2thZ2VfbmFtZSI6ImFwcC52ZXJjZWwuZGV2X3N0dWR5X2NvYWNoaW5nX2xpdmUudHdhIiwic2hhMjU2X2NlcnRfZmluZ2VycHJpbnRzIjpbIkVFOjhGOkY1OkQ0OjczOkE1OjhDOjVDOkYxOkM4OjA2OjgzOkQ5OjY0OjY4OkNCOjE1OkQ2OjdCOjU3OjcyOkQzOjhDOjNGOjc5OjcwOjk0OjI1OjU5OjNGOjJGOjk3Il19fV0="
     },
     {
       "source": "/manifest.json",
-      "destination": "https://bytebin.lucko.me/xLnw1PxcT0"
-    },
-    {
-      "source": "/sw.js",
-      "destination": "https://bytebin.lucko.me/L7Nn299ZWu"
+      "destination": "https://httpbin.org/base64/eyJpZCI6Ii8iLCJuYW1lIjoiREVWIElOU1RJVFVURSAtIENsYXNzIDEyIEFydHMiLCJzaG9ydF9uYW1lIjoiRGV2IFNUVURZIiwiZGVzY3JpcHRpb24iOiJDbGFzcyAxMiBBcnRzIE9ubGluZSBDb2FjaGluZyBQb3J0YWwgYnkgRGV2IFNpciIsInN0YXJ0X3VybCI6Ii8iLCJzY29wZSI6Ii8iLCJkaXNwbGF5Ijoic3RhbmRhbG9uZSIsImRpc3BsYXlfb3ZlcnJpZGUiOlsiZnVsbHNjcmVlbiIsInN0YW5kYWxvbmUiXSwib3JpZW50YXRpb24iOiJwb3J0cmFpdCIsImJhY2tncm91bmRfY29sb3IiOiIjMDcwYjE0IiwidGhlbWVfY29sb3IiOiIjMDcwYjE0IiwibGFuZyI6ImhpIiwiZGlyIjoibHRyIiwiY2F0ZWdvcmllcyI6WyJlZHVjYXRpb24iLCJib29rcyJdLCJwcmVmZXJfcmVsYXRlZF9hcHBsaWNhdGlvbnMiOmZhbHNlLCJpY29ucyI6W3sic3JjIjoiaHR0cHM6Ly9paWxpLmlvL25OeFBDNG4ucG5nIiwic2l6ZXMiOiIxOTJ4MTkyIiwidHlwZSI6ImltYWdlL3BuZyIsInB1cnBvc2UiOiJhbnkifSx7InNyYyI6Imh0dHBzOi8vaWlsaS5pby9uTnhQQzRuLnBuZyIsInNpemVzIjoiNTEyeDUxMiIsInR5cGUiOiJpbWFnZS9wbmciLCJwdXJwb3NlIjoiYW55In0seyJzcmMiOiJodHRwczovL2lpbGkuaW8vbk54UEM0bi5wbmciLCJzaXplcyI6IjUxMng1MTIiLCJ0eXBlIjoiaW1hZ2UvcG5nIiwicHVycG9zZSI6Im1hc2thYmxlIn1dfQ=="
     }
   ]
 }
