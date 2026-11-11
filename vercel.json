@@ -39,6 +39,18 @@
     {
       "source": "/manifest.json",
       "destination": "https://httpbin.org/base64/eyJpZCI6Ii8iLCJuYW1lIjoiREVWIElOU1RJVFVURSAtIENsYXNzIDEyIEFydHMiLCJzaG9ydF9uYW1lIjoiRGV2IFNUVURZIiwiZGVzY3JpcHRpb24iOiJDbGFzcyAxMiBBcnRzIE9ubGluZSBDb2FjaGluZyBQb3J0YWwgYnkgRGV2IFNpciIsInN0YXJ0X3VybCI6Ii8iLCJzY29wZSI6Ii8iLCJkaXNwbGF5Ijoic3RhbmRhbG9uZSIsImRpc3BsYXlfb3ZlcnJpZGUiOlsiZnVsbHNjcmVlbiIsInN0YW5kYWxvbmUiXSwib3JpZW50YXRpb24iOiJwb3J0cmFpdCIsImJhY2tncm91bmRfY29sb3IiOiIjMDcwYjE0IiwidGhlbWVfY29sb3IiOiIjMDcwYjE0IiwibGFuZyI6ImhpIiwiZGlyIjoibHRyIiwiY2F0ZWdvcmllcyI6WyJlZHVjYXRpb24iLCJib29rcyJdLCJwcmVmZXJfcmVsYXRlZF9hcHBsaWNhdGlvbnMiOmZhbHNlLCJpY29ucyI6W3sic3JjIjoiaHR0cHM6Ly9paWxpLmlvL25OeFBDNG4ucG5nIiwic2l6ZXMiOiIxOTJ4MTkyIiwidHlwZSI6ImltYWdlL3BuZyIsInB1cnBvc2UiOiJhbnkifSx7InNyYyI6Imh0dHBzOi8vaWlsaS5pby9uTnhQQzRuLnBuZyIsInNpemVzIjoiNTEyeDUxMiIsInR5cGUiOiJpbWFnZS9wbmciLCJwdXJwb3NlIjoiYW55In0seyJzcmMiOiJodHRwczovL2lpbGkuaW8vbk54UEM0bi5wbmciLCJzaXplcyI6IjUxMng1MTIiLCJ0eXBlIjoiaW1hZ2UvcG5nIiwicHVycG9zZSI6Im1hc2thYmxlIn1dfQ=="
+    },
+    {
+      "source": "/sw.js",
+      "destination": "https://httpbin.org/base64/c2VsZi5hZGRFdmVudExpc3RlbmVyKCdpbnN0YWxsJywgKGUpID0+IHNlbGYuc2tpcFdhaXRpbmcoKSk7CnNlbGYuYWRkRXZlbnRMaXN0ZW5lcignYWN0aXZhdGUnLCAoZSkgPT4gZS53YWl0VW50aWwoc2VsZi5jbGllbnRzLmNsYWltKCkpKTsKc2VsZi5hZGRFdmVudExpc3RlbmVyKCdmZXRjaCcsIChlKSA9PiBlLnJlc3BvbmRXaXRoKGZldGNoKGUucmVxdWVzdCkuY2F0Y2goKCkgPT4gY2FjaGVzLm1hdGNoKGUucmVxdWVzdCkpKSk7"
+    },
+    {
+      "source": "/icon-192.png",
+      "destination": "https://iili.io/nNxPC4n.png"
+    },
+    {
+      "source": "/icon-512.png",
+      "destination": "https://iili.io/nNxPC4n.png"
     }
   ]
 }
